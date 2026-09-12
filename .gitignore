@@ -1,0 +1,67 @@
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Backend (Python)
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+
+# Frontend (Node/React)
+frontend-react/node_modules/
+frontend-react/dist/
+frontend-react/build/
+frontend-react/.npm/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.eslintcache
+
+# FastF1 / Telemetry Cache
+telemetry_cache/
+*.parquet
+*.csv
+
+# AI / Models / Data
+# Ignore large dataset files
+telemetry_all.pkl
+# Note: overtake_model_monaco.pkl is NOT ignored so it can be deployed, 
+# but if you train new large models, add them here.
+*.h5
+*.onnx
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
