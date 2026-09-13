@@ -9,9 +9,12 @@ Thumbs.db
 
 # Backend (Python)
 __pycache__/
+ff1_cache/
+telemetry_cache/
 *.py[cod]
 *$py.class
 *.so
+*.pkl
 .Python
 env/
 build/
